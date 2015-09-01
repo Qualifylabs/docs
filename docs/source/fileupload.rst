@@ -38,10 +38,11 @@ Appium Server Argument  Mandatory Variable of Qualify   Description
 app                     APP                             | Appication upload url, this will be 
                                                         | automatically given by uploaded application.
 ---                     REMOTE_URL                      Automatically given by Parser, but should be present
-browserName             BROWSER                         
+browserName             BROWSER                         Only used for mobil browsers                        
 automationName          AUTOMATION_NAME                 
 deviceName              DEVICE_NAME                     
-platformName            PLATFORM_VERSION                
+platformName            PLATFORM_NAME
+platformVersion         PLATFORM_VERSION                
 ======================  ==============================  ===============================================
 
 Example Usage:
